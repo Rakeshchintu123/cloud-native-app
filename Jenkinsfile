@@ -1,7 +1,6 @@
 pipeline {
 agent any
 
-```
 environment {
     AWS_REGION = 'us-east-1'
     AWS_ACCOUNT_ID = '943755888791'
@@ -127,6 +126,5 @@ post {
         echo '=========================================='
     }
 }
-```
 
 }
